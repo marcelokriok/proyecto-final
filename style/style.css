@@ -127,7 +127,7 @@ main {
 .hero {
     margin-top: 20px;
     justify-content: space-between;
-    background-image: url(/imagenes/vacaciones\ \(1\).jpg);
+    background-image: url(../imagenes/vacaciones.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center ;
