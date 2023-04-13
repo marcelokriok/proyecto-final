@@ -1,0 +1,64 @@
+[
+{
+    "idPack": "SU-589",
+    "desde": "Buenos Aires",
+    "hasta": "Bariloche",
+    "tramo": "Buenos Aires-Bariloche",
+    "tituloDescriptivo": "Bariloche",
+    "telContacto": 1189654231,
+    "estado": "DISPONIBLE",
+    "precio": "$38.563,00",
+    "cupos": 50,
+    "image": "https://riosdelplaneta.com/wp-content/uploads/2019/12/cataratas-del-iguazu-2.jpg"
+  },
+  {
+    "idPack": "NO-571",
+    "desde": "Buenos Aires",
+    "hasta": "Salta",
+    "tramo": "Buenos Aires-Salta",
+    "tituloDescriptivo": "Salta",
+    "telContacto": 1112525689,
+    "estado": "DISPONIBLE",
+    "precio": "$25.553,00",
+    "cupos": 50,
+    "image": "https://tse1.mm.bing.net/th?id=OIP.vlqAK_AWp646ctawMlCO_gHaE6&pid=Api&P=0"
+  },
+  {
+    "idPack": "NE-852",
+    "desde": "Buenos Aires",
+    "hasta": "Cataratas",
+    "tramo": "Buenos Aires-Cataratas",
+    "tituloDescriptivo": "Cataratas del Iguazú",
+    "telContacto": 1112525689,
+    "estado": "DISPONIBLE",
+    "precio": "$14.232,00",
+    "cupos": 50,
+    "image": "http://www.iguazuviajes.com/images/panoramica_parque_nacional_iguazu.jpg"
+  },
+  {
+    "idPack": "CE-652",
+    "desde": "Buenos Aires",
+    "hasta": "Córdoba",
+    "tramo": "Buenos Aires-Córdoba",
+    "tituloDescriptivo": "Córdoba",
+    "telContacto": 1189654231,
+    "estado": "DISPONIBLE",
+    "precio": "$15.297,00",
+    "cupos": 50,
+    "image": "https://tse1.mm.bing.net/th?id=OIP.6Ls-YFe3dkTdZocPr2cN6wHaE0&pid=Api&P=0"
+  },
+  
+  {
+    "idPack": "SU-742",
+    "desde": "Buenos Aires",
+    "hasta": "Usuahia",
+    "tramo": "Buenos Aires-Usuahia",
+    "tituloDescriptivo": "Usuahia",
+    "telContacto": 1112525689,
+    "estado": "DISPONIBLE",
+    "precio": "$15.553,00",
+    "cupos": 50,
+    "image": "https://tse1.explicit.bing.net/th?id=OIP.AL6hRXuCi8WLSCSi8knpGAHaE8&pid=Api&P=0"
+  }
+  
+]

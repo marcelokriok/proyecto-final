@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style2.css">
     <script defer src="./script.js"></script>
     
 
@@ -33,18 +34,36 @@
         <button class="btn btn-registro">REGISTR0</button>
                 
         <section class="hero">
-            <div>
-            <h1>Grupo Mundo Viajes</h1><br>
-            <P>Somos una empresa de larga trayectoria en el rubro turístico. <br>  Nuestras propuestas se centran en las necesidades del viajero, <br> con especial atención en los detalles y en brindar un <br> servicio personalizado. <br>
-            Cumplimos los sueños de nuestros viajeros brindando promociones verdaderas con <br> atención personalizada, servicios de calidad y financiacion exclusiva!</p>
-            </div>
+            <section class="seccion2">
+                <div class="imgsecc1">
+                    <div class="div-parra1" >
+                        <h2 class="h2-secc2-1" id="qs"> <b>¿Quienes somos?</b></h2>
+                        <div class="slider-frame">
+                            <ul>
+                                <li><img src="./imagenes/slider1/slider1.jpeg" alt=""></li>
+                                <li><img src="./imagenes/slider1/slider2.jpeg" alt=""></li>
+                                <li><img src="./imagenes/slider1/slider3.jpeg" alt=""></li>
+                                <li><img src="./imagenes/slider1/slider5.jpeg" alt=""></li>
+                            </ul>
+                        </div>
+                        <p class="parra1">Somos una empresa de larga trayectoria en el rubro turístico.      Nuestras propuestas se centran en las necesidades del viajero, con especial atención en los detalles y en brindar un servicio personalizado. <br> 
+                            Nuestra fortaleza es el armado de paquetes turísticos a los destinos más importantes de la Argentina, que incluyen los traslados, aéreos, alojamiento, pensión y excursiones. <br> 
+                            En el rubro de salidas en micro, sumamos a un guía que acompaña a los grupos durante las 24 horas, haciendo de las travesías experiencias únicas y seguras. <br>
+                            En Mundo Viajes les ofrecemos asesoramiento durante todo el año, facilidades de contratación, financiación en cuotas y diversos medios de pago. <br id="pr">
+                            Nuestros canales de comunicación están a disposición para cualquier requerimiento o inquietud. 
+                            Los viajes se inician en el mismo momento en los comenzamos a planificar. ¡Nos vemos en la próxima travesía!.</p>
+                        </div>
+                              
+        
+                    </div>
+                </section>
        
         </section>
         <section class="promociones">
             <div class="card">
                 <img src="./imagenes/bombinhasbrasil.jpg" alt="bombinias" class="brasil">
                 <h2>BRASIL</h2>
-                <p>U$D 500 Por persona <br> Incluye: Media pension, bus, seguro medico </p>
+                <p>Muy Pronto <br> Contactanos y deja tus datos</p>
             </div>
             <div class="card">
                 <img src="./imagenes/PATAGONIA.jpg" alt="patagonia" class="patagonia">
@@ -57,8 +76,47 @@
                 <p>U$D 150 Por persona <br> Incluye: Desayuno, bus, seguro medico</p>
             </div>
         </section>
-        <section>
-            
+        <section class="container-form"> 
+            <h2 class="paquete">Seleccione su paquete</h2>
+                <form class="formulario2">                
+                    <div class="inputConteiner">
+                        <label for="origen ">Origen</label> 
+                        <input type="text" placeholder="Ingrese su lugar de Origen" id="lugarOrigen" name="origen" class="origen" value="Buenos Aires">
+                    </div>                
+                    <div class="inputContainer">
+                            <label for="destino">Destino</label> 
+                            <select name="Destino" id="lugarDestino""> 
+                                <option value="Salta">Salta</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="Cataratas">Cataratas</option>
+                                <option value="Bariloche">Bariloche</option>
+                                <option value="Corrientes">Corrientes</option>
+                                <option value="Tucuman">Tucuman</option>
+                                <option value="Iguazu">Iguazu</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label for="precioPack">Precio por pasajero</label>
+                        <input type="text" id="precioPack"> 
+                    </div>
+                    <div class="inputContainer">
+                        <label for="salida">Fecha de salida</label >
+                        <section name="salida"  id="input-salida">
+                        <input type="date" placeholder="salida" id="fechaSalida" name="fecha"  class="origen">
+                    </div>
+    
+                    <div class="inputContainer">
+                        <label for="llegada">Fecha de llegada</label >
+                        <section name="llegada"  id="llegada">
+                        <input type="date" placeholder="Fecha de llegada" id="fechaLlegada"  name="fechas" class="origen">        
+                    </div>           
+                        <label for="ticketNum">Cantidad de pasajeros:</label>
+                        <input id="pasajerosNum" type="number" name="pasajerosNum" value="1" min="1" max="15"/>                    
+                </form>
+                    <button onclick="enviarForm()">Enviar</button>
+                    <div id="contenedorPackTour" class="contenedorPackTour"></div>
+                </div>
         </section>
 
        

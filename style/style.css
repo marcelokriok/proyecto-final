@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@700&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -124,7 +125,48 @@ main {
     
 }
 
-.hero {
+h1 { 
+    padding-top: 20px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+
+.seccion2 {
+    display: inline-block;
+    margin-top: 20px;
+    width:100%;
+    margin-bottom: 32px;
+
+}
+.div-parra1{
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+
+}
+.h2-secc2-1{
+    width: 1120px;
+    height: 30px;
+    padding-left: 60%;
+    font-family: 'Comfortaa', cursive;
+}
+
+.parra1 {
+    display: inline-block;
+    width: 60%;
+    height: 220px;
+    text-align: justify;
+    padding-left: 15px;
+    text-transform: full-size-kana;
+    font-family: 'Comfortaa', cursive;
+
+}
+/* .hero {
     margin-top: 20px;
     justify-content: space-between;
     background-image: url(../imagenes/vacaciones.jpg);
@@ -153,7 +195,7 @@ h1 {
 
 p {
     font-size: 20px;
-}
+} */
 
 .promociones {
     padding: 3vh 5vh;
@@ -161,19 +203,45 @@ p {
     justify-content: space-between;
     
 }
-
+.contenedorPackTour{
+    display: flex;
+    flex-direction: row;  
+    gap: 30px;
+    justify-content: space-between;
+}
+.card{
+    background-color: #207cce;
+    color: white;
+    /* font-family: sans-serif;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10 var(--lila-fuerte);
+    width: 30rem;
+    margin: 1rem; */
+    width: 360px;
+    padding: 20px;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+/* .card img{    
+    width: 200px;    
+    border-radius: 5px;
+}
 .card {
     width: 360px;
     background-color: aliceblue;
     padding: 20px;
     border-radius: 14px;
     text-align: center;
-}
+} */
 
 .card img {
-    width: 100%;
+    width: 200px;
     cursor:pointer;
     transition: all 0.2s;
+    
 }
 .card img:hover {
     transform: scale(1.1);
